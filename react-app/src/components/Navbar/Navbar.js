@@ -9,13 +9,16 @@ export default function NavBar() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">재고관리</Link>
           </li>
           <li>
-            <Link to="/menu1">Menu1</Link>
+            <Link to="/menu1">재고추가</Link>
           </li>
           <li>
-            <Link to="/myPage">Profile</Link>
+            <Link to="/menu2">정기배송</Link>
+          </li>
+          <li>
+            <Link to="/myPage">마이페이지</Link>
           </li>
         </ul>
       </nav>
